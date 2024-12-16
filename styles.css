@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:  linear-gradient(to bottom, #000000bb, #00000022, #000000bb),url(./img/background\ \(2\).webp);
+    font-family: "poppins", sans-serif;
+    color: white;
+    min-width: 800px;
+}
+.main-wrapper {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.header>*{
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header .left{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.header .logo1 img{
+    /* border: 1px solid black; */
+    height: 100px;
+    padding-top: 0px; 
+    margin-left: 20px;  
+} 
+.header .navigator a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+     /* border: 1px solid black; */
+}
+
+.header .navigator a:hover
+{
+    color: #f72655;
+    text-decoration: underline;
+}
+.right{
+    padding-right: 20px;
+    align-items: center;
+}
+.header .language a{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        padding-right: 10px;
+    }
+
+.login{
+    background-color: #fff ;
+    color: #000;
+    border-radius:30px ;
+    height: 30px; width: 100px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #f72655 ;
+    color: #fff;
+    border-radius:30px ;
+    height: 30px; width: 100px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login a{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.mid{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.font{
+    font-size: 10rem;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+    text-transform: capitalize;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    border: 0;
+    width: 150px;
+    justify-content: center;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 50px;
+  background-color: rgb(221, 55, 55);
+}
+
+.button:hover {
+  background-color: rgba(255, 0, 0, 1);
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
